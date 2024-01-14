@@ -1,0 +1,122 @@
+.head{
+    width: 100%;
+    height: 60px;
+    font-size: 60px;
+    text-align: center;
+    background-color:silver;
+    padding-top: 20px;
+}
+.half{
+    background-color: whitesmoke;
+    display: flex;
+    column-gap: 12px;
+    /* position: relative;
+    grid-template-columns: 300px 2fr; */
+}
+
+
+.menufield 
+{
+    width: 200px;;
+    height: fit-content;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color:wheat;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* position: fixed; */
+
+}
+.uls{
+   line-height: 48px;
+} 
+a{
+    color: #000;
+    text-decoration: none;
+}
+.cat{
+    /* margin-left: -50px; */
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.cat-items{
+    display: flex;
+    column-gap: 48px;
+    position: relative;
+}
+.cat-item{
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: red; */
+    border-radius: 5px;
+    margin-bottom: 2px;
+    padding: 8px 16px;
+    box-shadow: rgba(0, 0, 0, 0.2);
+}
+.cat-item:hover{
+    margin-bottom:3px;
+   
+    border: none;
+    box-shadow: 5px 3px 5px 6px #ccc;
+
+   
+}
+/* .cat-item{
+    border-block-style: solid black 10px;
+    padding: 20px;
+} */
+
+.cat-head{
+  align-items: center;
+  justify-items: center;
+  font-weight: 700;
+  font-size: 28px;
+  font-family: sans-serif;
+  /* background-color: rgb(193, 245, 245); */
+  /* background-color: rgb(251, 135, 135)  ; */
+  background-color: wheat;
+  /* width: fit-content; */
+  padding: 2rem;
+  column-gap: 2px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  border-radius: 20px;
+  
+}
+.emo{
+    width: fit-content;
+    background-color: orange;
+}
+.cat-photo{
+    height:136px;
+    width:222px;
+}
+.cat-price{
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+span{
+    font-weight: 700;
+    color:orangered;
+    font-size: 24px;
+}
+.price{
+    text-decoration: line-through;
+}
+
+
+button{
+    /* #78ffd9 */
+    cursor: pointer;
+    padding: 6px 12px;
+    background-color: rgb(248, 158, 158);
+    border-radius: 20px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(251, 135, 135) ;
+}
+
